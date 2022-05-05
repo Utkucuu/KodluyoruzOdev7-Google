@@ -1,0 +1,178 @@
+
+/* Global main - Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+a{
+    text-decoration: none;
+    color: 	#343a40;
+}
+/* Global Main - End */
+
+/* Header - Start */
+
+.head-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:100px;
+}
+
+.flex1{
+    width: 150px;
+    margin-top:  20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+}
+
+.flex2{
+    width: 300px;
+    margin-top:  20px;
+    margin-right: 20px ;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+.btn-head{
+    padding: 10px;
+    border: #00c8ff;
+    border-radius: 2px;
+    background: #007bff;
+    font-weight:bold;
+    color:white;
+}
+
+
+
+.btn-head:hover{
+    background-color: #fff;
+    color: #00c8ff;
+    border: 1px solid #007bff;
+}
+
+.h-link:hover{
+    text-decoration: underline;
+}
+
+.warn{
+    padding-top: 5px;
+}
+
+i{
+    color: #cbc5c5;
+}
+
+i:hover{
+ color: black;
+}
+
+/********** MANTIK HATASI OLSADA DENEME İÇİN PP EKLENDİ ***********/
+.pp{
+    border: 1ps solid;
+    border-radius: 120px;
+}
+/* Header - End */
+
+
+/* Section - Start */
+
+section{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.search{
+    outline: none;
+    resize: none;
+    border: 1px solid;
+    border-style:none;
+    box-shadow: 1px 1px 5px  #c7c8c8 inset;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+}
+
+.voice{
+    margin-top: 55px;
+    position:absolute;
+    left: 920px;
+    z-index: 1;
+    width: 30px;
+}
+
+.logo{
+    margin-top: 63px;
+    position:absolute;
+    left: 450px;
+
+}
+
+.search:focus{
+    z-index: 3;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-left: 20px; 
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    font-family: Arial;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    box-shadow: 1px 1px 5px  #c7c8c8 inset;
+}
+
+   
+/* Sectinon - End  */
+
+/* Footer - Start  */
+footer{
+    height: auto;
+    background-color: #f2f2f2;
+    margin-top: 300px;
+    
+}
+
+.foot-ul{
+    list-style-type: none;
+    display:flex;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.foot-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li {
+    padding-left: 20px;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+/* Footer - End  */

@@ -1,0 +1,1 @@
+# Google ana sayfa ayrıntılı tasarım
